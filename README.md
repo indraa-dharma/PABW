@@ -1,21 +1,20 @@
 # PABW — Amadeus Dharma Akbarindra — NIM25523253
- 
+
 Repo ini memuat Daftar Film yang sudah saya tonton.
-Struktur berupa nama film, tahun rilis, sutradara, dan rating di IMDB
- 
+Struktur berupa nama film, tahun rilis, sutradara, dan rating di IMDb.
+
 ## Pertemuan 3 — Halaman profil saya
- 
-Topik halaman saya: Daftar tugas dan prioritas
- 
-- Judul halaman: Daftar Tugas Kuliah
-- Deskripsi: Halaman ini menampilkan Tugas Kuliah dan Tenggatnya
-- Tautan navigasi: Beranda, Daftar Tugas, Kontak
-- Dua bagian utama: Daftar Tugas saya, Tambah Tugas
-- Kolom tabel: Nama Tugas, Tenggat, Mata Kuliah, Prioritas
-- Kolom form: Nama Tugas, Tenggat, Nama mata kuliah
-- Gambar: Tugas#1.jpeg
- 
+
+Topik halaman saya: Daftar Film yang Pernah Saya Tonton
+
+- Judul halaman: Daftar Film yang Pernah Saya Tonton
+- Deskripsi: Halaman ini menampilkan daftar film yang pernah saya tonton beserta tahun rilis, sutradara, dan rating IMDb.
+- Tautan navigasi: Beranda, Daftar Film, Tentang Saya
+- Dua bagian utama: Daftar Film dan Tambah List Film
+- Kolom tabel: Judul Film, Tahun Rilis, Sutradara, Rating IMDb
+- Kolom form: Judul Film, Tahun Rilis, Sutradara, Rating IMDb
+- Gambar: poster film Inception
+
 ## Catatan penggunaan AI
- 
-Tulis bagian mana yang dibantu AI dan bagian mana yang Anda
-kerjakan sendiri, atau tulis: tidak memakai AI.
+
+Tidak memakai AI. Semua isi halaman, struktur, data film, dan konten dibuat sendiri.
