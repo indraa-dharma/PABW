@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Film yang Pernah Saya Tonton</title>
+</head>
+<body>
+      <header id="beranda">
+        <h1>Daftar Film yang Pernah Saya Tonton</h1>  
+        <p>Berikut adalah daftar film yang pernah saya tonton beserta tahun rilisnya:</p>
+        <nav aria-label="Navigasi Utama">
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#film">Daftar Film</a></li>
+                <li><a href="#tentang">Tentang Saya</a></li>
+            </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section id="film">
+            <caption>Daftar Film</caption>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Judul Film</th>
+                        <th>Tahun Rilis</th>
+                        <th>Sutradara</th>
+                        <th>Rating IMDB</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Inception</td>
+                        <td>2010</td>
+                        <td>Christopher Nolan</td>
+                        <td>8.8</td>
+                    </tr>
+                    <tr>
+                        <td>The Shawshank Redemption</td>
+                        <td>1994</td>
+                        <td>Frank Darabont</td>
+                        <td>9.3</td>
+                    </tr>
+                    <tr>
+                        <td>The Dark Knight</td>
+                        <td>2008</td>
+                        <td>Christopher Nolan</td>
+                        <td>9.0</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <figure>
+                <img src="images (3).jpg" alt="Poster Film Inception" width="200">
+                <figcaption>Poster Film Inception</figcaption>
+            </figure>
+        </section>
+
+        <section id="Tambah List Film"> 
+            <h2>Tambah List Film</h2>
+            <form action="#" method="post">
+                <label for="judul">Judul Film:</label>
+                <input type="text" id="judul" name="judul" required><br><br>
+
+                <label for="tahun">Tahun Rilis:</label>
+                <input type="number" id="tahun" name="tahun" required><br><br>
+
+                <label for="sutradara">Sutradara:</label>
+                <input type="text" id="sutradara" name="sutradara" required><br><br>
+
+                <label for="rating">Rating IMDB:</label>
+                <input type="number" step="0.1" id="rating" name="rating" required><br><br>
+
+                <input type="submit" value="Tambah Film">
+            </form>
+        </section>
+
+        <footer id="tentang">
+            <p>Amadeus Dharma Akbarindra · 25523253 · 2026</p>
+      </main>
+</body>
+</html>
