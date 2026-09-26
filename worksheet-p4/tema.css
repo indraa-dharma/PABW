@@ -1,0 +1,50 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: var(--dark-bg);
+    --color-fg: var(--dark-fg);
+    --color-surface: var(--dark-surface);
+    --color-border: var(--dark-border);
+    --color-primary: var(--dark-primary);
+    --color-danger: var(--dark-danger);
+    --color-focus: var(--dark-focus);
+    --shadow-1: 0 1px 3px rgba(0, 0, 0, 0.45);
+  }
+}
+
+.pengalih-tema {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.tombol-tema {
+  display: inline-block;
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  color: var(--color-fg);
+  cursor: pointer;
+}
+
+.pengalih-tema:focus-visible + .tombol-tema {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+:root:has(#tema:checked) {
+  --color-bg: var(--dark-bg);
+  --color-fg: var(--dark-fg);
+  --color-surface: var(--dark-surface);
+  --color-border: var(--dark-border);
+  --color-primary: var(--dark-primary);
+  --color-danger: var(--dark-danger);
+  --color-focus: var(--dark-focus);
+  --shadow-1: 0 1px 3px rgba(0, 0, 0, 0.45);
+}

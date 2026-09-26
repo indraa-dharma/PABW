@@ -1,15 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daftar Film yang Pernah Saya Tonton</title>
-    <link rel="stylesheet" href="profil.css">
+    <link rel="stylesheet" href="tokens.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="komponen.css">
+    <link rel="stylesheet" href="tema.css">
 </head>
 <body>
     <header id="beranda">
         <h1>Daftar Film yang Pernah Saya Tonton</h1>  
         <p>Berikut adalah daftar film yang pernah saya tonton beserta tahun rilisnya:</p>
+        
+        <input type="checkbox" id="tema" class="pengalih-tema">
+        <label for="tema" class="tombol-tema">Tema gelap</label>
+        
         <nav aria-label="Navigasi Utama">
             <ul>
                 <li><a href="#beranda">Beranda</a></li>
@@ -21,8 +29,8 @@
 
     <main>
         <section id="film">
-            <caption>Daftar Film</caption>
             <table>
+            <caption>Daftar Film</caption>
                 <thead>
                     <tr>
                         <th>Judul Film</th>
