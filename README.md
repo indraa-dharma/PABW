@@ -18,3 +18,14 @@ Topik halaman saya: Daftar Film yang Pernah Saya Tonton
 ## Catatan penggunaan AI
 
 Tidak memakai AI. Semua isi halaman, struktur, data film, dan konten dibuat sendiri.
+
+## Pertemuan 4 - Design Token Halaman Profil
+
+- Berkas gaya yang digunakan: tokens.css, base.css, layout.css, komponen.css, dan tema.css.
+- Warna utama yang dipilih adalah merah #B91C1C karena memberikan tampilan yang sederhana dan tegas pada halaman daftar film.
+- Design token digunakan agar perubahan warna, jarak, ukuran huruf, dan tampilan komponen dapat dilakukan secara terpusat.
+- Kriteria selesai: perubahan warna utama pada token dapat diterapkan ke komponen yang menggunakan token semantik.
+
+## Catatan penggunaan AI
+
+Tidak memakai AI. Semua isi halaman, struktur, data film, dan konten dibuat sendiri.
